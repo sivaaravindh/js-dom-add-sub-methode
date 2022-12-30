@@ -10,7 +10,9 @@ function myFunct(){
 }
 function myFunct1(){
   let add=document.getElementById("number").value;
+  if(add>0){
   add--;
   document.getElementById("number").value=add;
+  }
 }
 
